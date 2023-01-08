@@ -44,7 +44,7 @@ ul li.active a{
 }
 .title {
     position: absolute;
-    top:50%;
+    top:40%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -54,7 +54,7 @@ ul li.active a{
 }
 .button{
     position: absolute;
-    top: 65%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -69,21 +69,64 @@ ul li.active a{
     background-color: #fff;
     color:#000; 
 }
-.events {
-    position: absolute;
-    top: 95%;
-    left: 30%;
+#section-events {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    top:82%;
+    left: 50%;
     transform: translate(-50%,-50%);
+    text-align: center;
 }
-.events h2{
+#section-events h2{
     color: #fff;
     font-size: 50px ;
 }
-.events p{
+#section-events p{
     color: #fff;
     font-size: 20px ;
 }
 .container {
+    position: relative;
     width: 100%;
-    height: 150%;
+    height: 120%;
+}
+#section-aboutus {
+    position: relative;
+    width: 100%;
+    height:100%;
+    background-color: orange;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#section-aboutus h2{
+    color: #fff;
+    font-size: 50px ;
+}
+#section-aboutus p{
+    margin: 50px 200px;
+    color: #fff;
+    font-size: 20px ;
+}
+#section-welcome{
+    position: absolute;
+    top:115%;
+    width: 100%;
+    height: 40%;
+    background-color: rgba(178, 190, 181, .5);
+    
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#section-welcome h2{
+    color: #fff;
+    font-size: 50px ;
+}
+#section-welcome p{
+    color: #fff;
+    font-size: 20px ;
 }
