@@ -73,7 +73,7 @@ ul li.active a{
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: gray;
+    background-color: rgba(178, 190, 181);
     top:82%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -96,7 +96,10 @@ ul li.active a{
     position: relative;
     width: 100%;
     height:100%;
-    background-color: orange;
+    background-image: url('pics/csgate2.jpg');
+    background-size: cover;
+    background-position: 30%;
+    
     top: 82%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -105,11 +108,20 @@ ul li.active a{
 #section-aboutus h2{
     color: #fff;
     font-size: 50px ;
+    margin: 50px;
 }
-#section-aboutus p{
-    margin: 50px 200px;
+#section-aboutus p{    
     color: #fff;
     font-size: 20px ;
+    margin: 0px 100px;
+}
+#aboutus-container{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.6);   
 }
 #section-welcome{
     position: absolute;
@@ -117,7 +129,6 @@ ul li.active a{
     width: 100%;
     height: 40%;
     background-color: rgba(178, 190, 181, .5);
-    
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
